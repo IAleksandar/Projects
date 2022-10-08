@@ -1,0 +1,93 @@
+﻿.container-fluid-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #a67b5b;
+}
+
+#headings {
+    margin-top: 20px;
+}
+
+#heading-1 {
+    position: absolute;
+    top: 30%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    font-size: 67px;
+    color: #A67B5B;
+    background: #A67B5B;
+}
+
+#image-div {
+    display: flex;
+    margin-right: 500px;
+    margin-top: 100px;
+    margin-left: -420px;
+}
+
+#coffee-img {
+    width:500px;
+    height: 530px;
+    margin-left: 1400px;
+    margin-top: 180px;
+}
+
+.second-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 760px;
+}
+
+#coffee-heading {
+    margin-left: -10px;
+    margin-top: 100px;
+}
+
+#coffee {
+    width: 8%;
+    border-radius: 15px;
+    border-color: #a67b5b;
+    margin-top: 30px;
+    margin-left: 90px;
+    color: #a67b5b;
+}
+
+#ingridients {
+    margin-top: -110px;
+    margin-left: 500px;
+}
+
+#ingridients-select {
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 210px;
+    border-radius: 7px;
+    width: 20%;
+}
+
+#total-ingridients {
+    background: white;
+}
+
+
+#cash {
+    color: white;
+    margin-left: 1030px;
+    margin-top: 70px;
+}
+
+#input-label {
+    font-size: 30px;
+}
+
+#place-order {
+    margin-left: 1160px;
+    margin-top: 10px;
+}
+
+#order {
+    color: white;
+    background: #873e23;
+}

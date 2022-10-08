@@ -1,0 +1,399 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\Coffee Vending Machine Application\\CoffeeVendingMachineApplication.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\Coffee Vending Machine Application\\CoffeeVendingMachineApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\Coffee Vending Machine Application\\CoffeeVendingMachineApplication.csproj",
+        "projectName": "CoffeeVendingMachineApplication",
+        "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\Coffee Vending Machine Application\\CoffeeVendingMachineApplication.csproj",
+        "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\Coffee Vending Machine Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVending.DataAccess\\CoffeeVendingMachine.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVending.DataAccess\\CoffeeVendingMachine.DataAccess.csproj"
+              },
+              "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Domain\\CoffeeVendingMachine.Domain.csproj": {
+                "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Domain\\CoffeeVendingMachine.Domain.csproj"
+              },
+              "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Helpers\\CoffeeVendingMachine.Helpers.csproj": {
+                "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Helpers\\CoffeeVendingMachine.Helpers.csproj"
+              },
+              "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachineWebApi\\CoffeeVendingMachineWebApi.csproj": {
+                "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachineWebApi\\CoffeeVendingMachineWebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVending.DataAccess\\CoffeeVendingMachine.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVending.DataAccess\\CoffeeVendingMachine.DataAccess.csproj",
+        "projectName": "CoffeeVendingMachine.DataAccess",
+        "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVending.DataAccess\\CoffeeVendingMachine.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVending.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Domain\\CoffeeVendingMachine.Domain.csproj": {
+                "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Domain\\CoffeeVendingMachine.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Domain\\CoffeeVendingMachine.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Domain\\CoffeeVendingMachine.Domain.csproj",
+        "projectName": "CoffeeVendingMachine.Domain",
+        "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Domain\\CoffeeVendingMachine.Domain.csproj",
+        "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Helpers\\CoffeeVendingMachine.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Helpers\\CoffeeVendingMachine.Helpers.csproj",
+        "projectName": "CoffeeVendingMachine.Helpers",
+        "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Helpers\\CoffeeVendingMachine.Helpers.csproj",
+        "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVending.DataAccess\\CoffeeVendingMachine.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVending.DataAccess\\CoffeeVendingMachine.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachineWebApi\\CoffeeVendingMachineWebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachineWebApi\\CoffeeVendingMachineWebApi.csproj",
+        "projectName": "CoffeeVendingMachineWebApi",
+        "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachineWebApi\\CoffeeVendingMachineWebApi.csproj",
+        "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachineWebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVending.DataAccess\\CoffeeVendingMachine.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVending.DataAccess\\CoffeeVendingMachine.DataAccess.csproj"
+              },
+              "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Domain\\CoffeeVendingMachine.Domain.csproj": {
+                "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Domain\\CoffeeVendingMachine.Domain.csproj"
+              },
+              "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Helpers\\CoffeeVendingMachine.Helpers.csproj": {
+                "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Helpers\\CoffeeVendingMachine.Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

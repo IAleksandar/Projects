@@ -1,0 +1,37 @@
+﻿.first-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#heading1 {
+    margin-left: 200px;
+    margin-top: -1000px;
+    z-index: 0;
+    font-size: 67px;
+}
+
+#heading5 {
+    z-index: 0;
+    margin-left: -690px;
+    margin-top: -800px;
+    font-size: 23px;
+}
+
+div > img {
+    width: 100%;
+    height: auto;
+}
+
+.order_button {
+    width: 200px;
+    height: 65px;
+    margin-left: 2307px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}

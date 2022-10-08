@@ -1,0 +1,117 @@
+﻿@{ List<CoffeeVendingMachine.Domain.Models.Coffee> coffee = (List<CoffeeVendingMachine.Domain.Models.Coffee>)ViewBag.Coffee;
+   List<CoffeeVendingMachine.Domain.Models.Ingridients> ingridient = (List<CoffeeVendingMachine.Domain.Models.Ingridients>)ViewBag.Ingridient;
+    }
+
+<div class="container-fluid-1">
+
+    <div id="img-div">
+        <img class="display-4;" src="~/img/upOriginal.png"></img>
+    </div>
+    <div id="headings">
+        <h1 id="heading-1" class="text-white">Let's Create Your Coffee</h1>
+    </div>
+    <div id="image-div">
+        <img id="coffee-img" src="~/img/coffee.png" alt="Coffee" class="img-fluid" alt="Coffee">
+    </div>
+
+
+    <div class="second-section">
+        <div id="coffee-heading">
+            <div>
+                <h1 class="text-white">Choose your coffee:</h1>
+            </div>
+
+            <select id="coffee">
+                <option hidden>Select Coffee</option>
+                <option value="@coffee[0].Price">@coffee[0].Name: @coffee[0].Price$</option>
+                <option value="@coffee[1].Price">@coffee[1].Name: @coffee[1].Price$</option>
+                <option value="@coffee[2].Price">@coffee[2].Name: @coffee[2].Price$</option>
+                <option value="@coffee[3].Price">@coffee[3].Name: @coffee[3].Price$</option>
+                <option value="@coffee[4].Price">@coffee[4].Name: @coffee[4].Price$</option>
+            </select>
+        </div>
+
+        <div id="ingridients">
+            <div>
+                <h1 class="text-white">Choose extra flavour to your coffee:</h1>
+            </div>
+
+            <form id="ingridients-select" class="text-white" name="listForm">
+                <input type="checkbox" name="choice" value="@ingridient[0].Price" onchange="checkTotal()" />&nbsp; &nbsp; @ingridient[0].Name: @ingridient[0].Price$<br />
+                <input type="checkbox" name="choice" value="@ingridient[1].Price" onchange="checkTotal()" />&nbsp; &nbsp; @ingridient[1].Name: @ingridient[1].Price$<br />
+                <input type="checkbox" name="choice" value="@ingridient[2].Price" onchange="checkTotal()" />&nbsp; &nbsp; @ingridient[2].Name: @ingridient[2].Price$<br />
+                <input type="checkbox" name="choice" value="@ingridient[3].Price" onchange="checkTotal()" />&nbsp; &nbsp; @ingridient[3].Name: @ingridient[3].Price$<br />
+                Total: &nbsp; &nbsp; <input id="total-ingridients" type="text" size="2" name="total" value="0" />
+            </form>
+        </div>
+    </div>
+
+    <div id="cash" class="form-group col-md-2">
+        <label id="input-label" for="number">Input Cash</label>
+        <input type="number" class="form-control" id="balance">
+    </div>
+
+    <div id="place-order">
+        <a id="order" class="btn btn-secondary btn-lg">Place Order</a>
+    </div>
+    <img src="~/img/downOriginal.png" alt="Alternate Text" />
+
+</div>
+
+
+
+<script>
+
+    let toggleButton = document.getElementsByClassName("toggle-buttons");
+    let toggleButton0 = document.getElementById("sugar");
+    let toggleButton1 = document.getElementsByTagName("creamer");
+    let toggleButton2 = document.getElementsByTagName("caramelle");
+    let toggleButton3 = document.getElementsByTagName("more-milk");
+    let placeOrder = document.getElementById("order");
+    let temp = 0;
+
+
+    let selectIngridient = document.getElementById('total-ingridients');
+
+
+    function checkTotal() {
+        document.listForm.total.value = '';
+        var sum = 0;
+        for (i = 0; i < document.listForm.choice.length; i++) {
+            if (document.listForm.choice[i].checked) {
+                sum = sum + parseInt(document.listForm.choice[i].value);
+            }
+        }
+        document.listForm.total.value = sum;
+    }
+
+
+
+    let selectCoffee = document.getElementById('coffee');
+    selectCoffee.addEventListener('change', addCoffee);
+
+    function addCoffee() {
+        let coffeeValue = parseInt(selectCoffee.options[selectCoffee.selectedIndex].value);
+        temp = temp + coffeeValue;
+        console.log(temp);
+    }
+
+
+
+    let balance = document.getElementById('balance');
+    placeOrder.addEventListener('click', placeOrderFunc);
+
+    function placeOrderFunc() {
+        let coffee = selectCoffee.options[selectCoffee.selectedIndex].value;
+        let ingridient = parseInt(selectIngridient.value);
+        if (parseInt(balance.value) < (parseInt(coffee) + parseInt(ingridient))) {
+            alert("You do not have enough money");
+            return;
+        }
+        else {
+            alert("Enjoy your coffee");
+            return;
+        }
+    }
+
+</script>
