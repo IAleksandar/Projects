@@ -5133,11 +5133,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Domain\\CoffeeVendingMachine.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Desktop\\Projects\\Coffee Vending Machine App\\Coffee Vending Machine Application\\CoffeeVendingMachine.Domain\\CoffeeVendingMachine.Domain.csproj",
       "projectName": "CoffeeVendingMachine.Domain",
-      "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Domain\\CoffeeVendingMachine.Domain.csproj",
+      "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Projects\\Coffee Vending Machine App\\Coffee Vending Machine Application\\CoffeeVendingMachine.Domain\\CoffeeVendingMachine.Domain.csproj",
       "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Domain\\obj\\",
+      "outputPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Projects\\Coffee Vending Machine App\\Coffee Vending Machine Application\\CoffeeVendingMachine.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",

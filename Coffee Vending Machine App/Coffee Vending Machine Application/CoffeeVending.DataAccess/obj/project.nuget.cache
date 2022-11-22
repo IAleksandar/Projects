@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IuDNUEwLFAzaKR6v5kxbA6hLbdAr1nGu+8ETh1zD7BGKRnvXrcsnT3wnsH8zAHshk7z1/83T8eKFlFRkB3JW+A==",
+  "dgSpecHash": "dJVMbA4IzCC1v1oH8svdRsZUw/7lIgUY76Dat9ODOYfNXZ1LadhOYgk0eab506rcbTDSceE6Aq/aGoHKlyhXZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVending.DataAccess\\CoffeeVendingMachine.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Projects\\Coffee Vending Machine App\\Coffee Vending Machine Application\\CoffeeVending.DataAccess\\CoffeeVendingMachine.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleks\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.1\\microsoft.aspnetcore.jsonpatch.3.1.1.nupkg.sha512",
     "C:\\Users\\aleks\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.1\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.1.nupkg.sha512",

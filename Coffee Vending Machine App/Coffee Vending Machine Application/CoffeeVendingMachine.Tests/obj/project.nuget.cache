@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l0xxvN0QvE1IeEbdlt/WX7pSlUuDu7M6kEroP6ycWh/k5wSIGJD2f036mXwusofI8K6Ey46ISqlOCQmX6tucDA==",
+  "dgSpecHash": "Fj7V2rck47CdVlfSV+uyyaBTELpCCdCxlKYGZ/u5Hj3usqnUcCieorEnm4cONAuJzW5jV4ynTsILDw4Eki1Reg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Tests\\CoffeeVendingMachine.Tests.csproj",
+  "projectFilePath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Projects\\Coffee Vending Machine App\\Coffee Vending Machine Application\\CoffeeVendingMachine.Tests\\CoffeeVendingMachine.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleks\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\aleks\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.1\\microsoft.aspnetcore.jsonpatch.3.1.1.nupkg.sha512",

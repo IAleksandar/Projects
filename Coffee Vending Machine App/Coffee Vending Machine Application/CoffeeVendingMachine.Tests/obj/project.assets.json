@@ -6957,11 +6957,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Tests\\CoffeeVendingMachine.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Desktop\\Projects\\Coffee Vending Machine App\\Coffee Vending Machine Application\\CoffeeVendingMachine.Tests\\CoffeeVendingMachine.Tests.csproj",
       "projectName": "CoffeeVendingMachine.Tests",
-      "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Tests\\CoffeeVendingMachine.Tests.csproj",
+      "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Projects\\Coffee Vending Machine App\\Coffee Vending Machine Application\\CoffeeVendingMachine.Tests\\CoffeeVendingMachine.Tests.csproj",
       "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachine.Tests\\obj\\",
+      "outputPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Projects\\Coffee Vending Machine App\\Coffee Vending Machine Application\\CoffeeVendingMachine.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6978,8 +6978,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachineWebApi\\CoffeeVendingMachineWebApi.csproj": {
-              "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Damilah\\Damilah Task - Coffee Vending Machine Assignment\\Coffee Vending Machine Application\\CoffeeVendingMachineWebApi\\CoffeeVendingMachineWebApi.csproj"
+            "C:\\Users\\aleks\\OneDrive\\Desktop\\Projects\\Coffee Vending Machine App\\Coffee Vending Machine Application\\CoffeeVendingMachineWebApi\\CoffeeVendingMachineWebApi.csproj": {
+              "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Projects\\Coffee Vending Machine App\\Coffee Vending Machine Application\\CoffeeVendingMachineWebApi\\CoffeeVendingMachineWebApi.csproj"
             }
           }
         }

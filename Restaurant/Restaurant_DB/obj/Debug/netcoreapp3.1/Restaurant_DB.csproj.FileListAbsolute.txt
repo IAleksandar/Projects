@@ -1,0 +1,13 @@
+C:\Users\aleks\OneDrive\Desktop\Restaurant\Restaurant_DB\bin\Debug\netcoreapp3.1\Restaurant_DB.deps.json
+C:\Users\aleks\OneDrive\Desktop\Restaurant\Restaurant_DB\bin\Debug\netcoreapp3.1\Restaurant_DB.runtimeconfig.json
+C:\Users\aleks\OneDrive\Desktop\Restaurant\Restaurant_DB\bin\Debug\netcoreapp3.1\Restaurant_DB.runtimeconfig.dev.json
+C:\Users\aleks\OneDrive\Desktop\Restaurant\Restaurant_DB\bin\Debug\netcoreapp3.1\Restaurant_DB.dll
+C:\Users\aleks\OneDrive\Desktop\Restaurant\Restaurant_DB\bin\Debug\netcoreapp3.1\Restaurant_DB.pdb
+C:\Users\aleks\OneDrive\Desktop\Restaurant\Restaurant_DB\obj\Debug\netcoreapp3.1\Restaurant_DB.csproj.AssemblyReference.cache
+C:\Users\aleks\OneDrive\Desktop\Restaurant\Restaurant_DB\obj\Debug\netcoreapp3.1\Restaurant_DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\OneDrive\Desktop\Restaurant\Restaurant_DB\obj\Debug\netcoreapp3.1\Restaurant_DB.AssemblyInfoInputs.cache
+C:\Users\aleks\OneDrive\Desktop\Restaurant\Restaurant_DB\obj\Debug\netcoreapp3.1\Restaurant_DB.AssemblyInfo.cs
+C:\Users\aleks\OneDrive\Desktop\Restaurant\Restaurant_DB\obj\Debug\netcoreapp3.1\Restaurant_DB.csproj.CoreCompileInputs.cache
+C:\Users\aleks\OneDrive\Desktop\Restaurant\Restaurant_DB\obj\Debug\netcoreapp3.1\Restaurant_DB.dll
+C:\Users\aleks\OneDrive\Desktop\Restaurant\Restaurant_DB\obj\Debug\netcoreapp3.1\Restaurant_DB.pdb
+C:\Users\aleks\OneDrive\Desktop\Restaurant\Restaurant_DB\obj\Debug\netcoreapp3.1\Restaurant_DB.genruntimeconfig.cache

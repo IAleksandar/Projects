@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Menu Page";
+}
+
+<div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Restaurant Manager</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+</div>
+<div>
+    <div>
+        @Html.Partial("~/Views/Shared/Partials/_AllTables.cshtml")
+    </div>
+</div>

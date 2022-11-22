@@ -1,0 +1,20 @@
+﻿@model User;
+@{
+    ViewData["Title"] = "Log in Page";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <form class="form-signin" asp-action="LogIn" method="post" enctype="multipart/form-data">
+            <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+            <input asp-for="Email" type="email" class="form-control" placeholder="Email address" required autofocus>
+            <input asp-for="Password" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        </form>
+        <form class="form-signin" asp-action="SignUp" method="get" enctype="multipart/form-data">
+            <button class="btn btn-lg btn-info btn-block col-12">Register</button>
+        </form>
+    </div>
+</div>
+
+<link rel="stylesheet" href="~/css/login.css" />
