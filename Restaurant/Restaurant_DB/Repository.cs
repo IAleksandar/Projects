@@ -10,6 +10,8 @@ namespace Restaurant_DB
 {
     public class Repository
     {
+
+        //SignUp
         public void Sign_Up(string name, string type, string email, long key, string password)
         {
             using (var ctx = new RestaurantContext())
@@ -34,6 +36,8 @@ namespace Restaurant_DB
                 }
             }
         }
+
+
         public long Get_Key(string email)
         {
             long key;
@@ -56,6 +60,8 @@ namespace Restaurant_DB
                 return 0;
             }
         }
+
+        //Login
         public long Log_In(string email, string password)
         {
             using (var ctx = new RestaurantContext())
@@ -78,6 +84,8 @@ namespace Restaurant_DB
                 return 0;
             }
         }
+
+        //List all Tables that are closed
         public List<string> ListTablesTaken()
         {
             using (var ctx = new RestaurantContext())
@@ -101,6 +109,7 @@ namespace Restaurant_DB
             }
         }
         
+        //List all Categories
         public List<string> List_Categories()
         {
             using (var ctx = new RestaurantContext())
@@ -124,6 +133,8 @@ namespace Restaurant_DB
                 return categories;
             }
         }
+
+        //List by Category
         public List<Models.MenuItem> List_Item_By_Category(string category)
         {
             using (var ctx = new RestaurantContext())
@@ -148,6 +159,7 @@ namespace Restaurant_DB
             }
         }
 
+        //Create
         public void Add_Order(long user, long item, int table, List<MenuItem> items)
         {
             using (var ctx = new RestaurantContext())
@@ -184,6 +196,8 @@ namespace Restaurant_DB
                 }
             }
         }
+
+        //Update
         public void Update_Order(int Table_number)
         {
             using (var ctx = new RestaurantContext())
@@ -203,6 +217,7 @@ namespace Restaurant_DB
             }
         }
 
+        //Delete
         public long Log_In(MenuItem item)
         {
             using (var ctx = new RestaurantContext())
